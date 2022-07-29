@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>온라인 프로필</title>
+    <style>
+        body {
+            background: rgb(125, 231, 231)
+        }
+        table {
+            width: 70%;
+            border: 1px solid #222;
+            border-collapse: collapse; /* 중복되는 표와 셀의 테두리를 한 줄로 표시 */
+        }
+        thead {
+            background: #eee;
+        }
+        tbody {
+            background: white;
+        }
+        th, td { 
+            border: 1px solid #ccc;
+            padding: 5px;
+            font-size: 0.8em;
+        }
+        .main {
+            position: relative;
+            border: 1px solid #ccc;
+        }
+        article {
+            margin-right: 60px;
+            float: right;
+        }
+        aside {
+            position: absolute;
+            width: 220px;
+            height: 800px;
+            padding: 20px;
+            float: left;
+            background-color: #ccc;
+            margin-right: 10px;
+        }
+        #namecard > img {
+            width: 180px;
+        }
+        p, li {
+            line-height: 1.6em;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+    <article>
+        <!-- 자기소개 -->
+        <section>
+            <h2 class="subtitle">Who am I?</h2>
+            <p><mark>프론트엔드 웹 기술(Front-end Web Tech.) 및 백엔드 과정</mark>에 관심이 많습니다. 
+            <br>현재 대전광역시의 그린컴퓨터학원에서 코딩 중입니다. </p>
+
+        </section>
+        <hr>
+        <!-- 경력 -->
+        <section>
+            <h2 class="subtitle">Experience</h2>
+            <ul>
+                <li>프론트엔드 개발
+                    <ul>
+                        <li>자바 공부하기 </li>
+                        <li>자바 스크립트 공부하기</li>
+                        <li>데이터베이스 SQL공부하기</li>
+                    </ul>
+                </li>
+                <li>웹 디자인
+                    <ul>
+                        <li>HTML 공부하기</li>
+                        <li>CSS 공부하기</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <hr>
+        <!-- 숙련도 -->
+        <section>
+            <h2 class="subtitle">SKills</h2>
+
+        </section>
+        <hr>
+        <!-- 학력 -->
+        <section>
+            <h2 class="subtitle">Education</h2>
+            <table>
+                <caption><mark>학력 사항</mark></caption>
+                <thead>
+                    <tr>
+                        <th>출신학교</th>
+                        <th>전공</th>
+                        <th>기간</th>
+                        <th>구분</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>한남대학교</td>
+                        <td>정보통신공학</td>
+                        <td>2013.03 ~ 2017.09</td>
+                        <td>중퇴</td>
+                    </tr>
+                    <tr>
+                        <td>유성고등학교</td>
+                        <td>이공계열</td>
+                        <td>2010.03 ~ 2013.02</td>
+                        <td>졸업</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </section>
+    </article>
+        <aside>
+            <div id="namecard">
+                <img src="images/pf.jpg" alt="">
+                <h1>JEONGHYUN LEE</h1>
+                <p>내일말고 오늘부터</p>
+            </div>
+            <div id="detail">
+                <p>Daejeon, Korea</p>
+                <p>xkzkfhxm@naver.com</p>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>

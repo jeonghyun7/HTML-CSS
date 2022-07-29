@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>3번문제</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .area {
+            width: 960px;
+            height: auto;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            height: 100px;
+            border: 2px solid steelblue;
+            margin: 10px;
+        }
+        nav {
+            height: 80px;
+            border: 2px solid steelblue;
+            margin: 10px;
+        }
+        section {
+            width: 60%;
+            height: 300px;
+            border: 2px solid steelblue;
+            margin: 0 10px;
+            float: left;
+        }
+        aside {
+            width: 35%;            
+            height: 300px;
+            border: 2px solid steelblue;
+            margin: 0 10px;
+            margin-bottom: 10px;
+            padding: 0px;
+            float: right;
+        }
+        
+        footer {
+            clear: both;
+            height: 140px;
+            margin:10px;
+            border: 2px solid steelblue;
+            background-color: lightgray;
+        }
+        p {
+            margin: 0px;
+            font-size: 1em;
+            font-weight: bold;
+            color: steelblue;
+            padding: 5px;
+            float: left;
+        }
+        .foot {
+            width: 800px;
+            height: 110px;
+            float: right;
+            margin: 15px 30px;
+            margin-left: 0px;
+            background-color: white;
+        }
+        #address {
+            color: black;
+            font-size: 0.6em;
+            font-weight: 400;
+            float: left;
+            margin: 20px 50px;
+        }
+        #customer {
+            float: right;
+            font-size: 1.4em;
+            color: steelblue;
+            font-weight: 400;
+            margin: 5px;
+            width: 280px;
+            height: 80px;
+            text-align: right;
+            line-height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="area">
+        <header>    
+            <p>상단 헤더</p>
+        </header>
+        <nav>
+            <p>내비게이션 메뉴</p>
+        </nav>
+        <section>
+            <p>메인 콘텐츠</p>
+        </section>
+        <aside>
+            <p>사이드바</p>
+        </aside>
+        <footer>
+            <p>하단 푸터</p>
+            <div class="foot">
+                <p id="address">
+                    루바토 손해보험(주) 대표이사 : 홍길동 | 사업자등록번호 : 123-12-123456<br>
+                    전화: 02-123-1234 | 서울시 강남구 가나다동 123번지<br><br>
+                    Copyright by Rubato Company All Rihgts Reserve.
+                </p>
+                <p id="customer">
+                    고객센터 1588-1234 
+                    <img src="images/100.JPG">
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

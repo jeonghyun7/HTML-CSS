@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>제품 목록</title>
+    <style>
+        ul li {
+            margin: 15px;
+        }
+        li.hot::after {
+            content:"NEW!";
+            font-size: x-small;
+            padding: 2px 4px;
+            margin: 0 10px;
+            border-radius: 2px;
+            background: #f00;
+            color: #fff;
+        }
+        li.cool::before {
+            content:"신상!!";
+            font-size: x-small;
+            padding: 2px 4px;
+            margin: 0 10px;
+            border-radius: 2px;
+            background: blue;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="hot">제품 A</li>
+        <li class="cool">제품 B</li>
+        <li class="cool">제품 C</li>
+        <li class="hot">제품 D</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>텍스트 입력하기</title>
+    <style>
+        table, th, td {
+            border:1px solid #ccc;
+        }
+        th, td {
+            padding:15px; /* 셀 테두리와 내용 사이의 간격(패딩) */
+        }
+        tr > td:nth-child(odd) {
+            width:130px;   
+        }
+        tr > td:nth-child(2) {
+            width:80px;    
+        }
+        tr > td:nth-child(4) {
+            width:40px;    
+        }
+        thead {
+            background : hsl(0, 15%, 78%); /* thead와 t-foot의 배경 색 */
+        }
+        ul, p {
+            line-height:35px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Who am I?</h1>
+    <p><mark>프론트엔드 웹 기술(Front-end Web Tech)</mark>에 관심이 많습니다.<br>
+    현재 제주의 한 시골 마을에서 코딩 중입니다.</p><br>
+    <hr>
+    <h1>Experience</h1>
+    <ul>
+        <li> 프론트엔드 개발
+            <ul>
+            <li> 업무 내용 업무 내용 업무 내용</li>
+            <li> 업무 내용</li>
+            <li> 업무 내용 업무 내용</li>
+            </ul>
+        </li>
+        <li> 웹 디자인
+            <ul>
+            <li> 업무 내용</li>
+            <li> 업무 내용 업무 내용</li>
+            </ul>
+        </li>
+
+    </ul><br>
+    <hr>
+    <h1>Skills</h1>
+    <hr>
+    <h1>Education</h1>
+        <table>
+            <caption>학력 사항</caption>
+            <thead>
+                <tr>
+                    <th>출신학교</th>
+                    <th>전공</th>
+                    <th>기간</th>
+                    <th>구분</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ㅁㅁ대학교</td>
+                    <td>컴퓨터공학</td>
+                    <td>2004.3 ~ 2008.2</td>
+                    <td>졸업</td>
+                </tr>
+                <tr>
+                    <td>ㅇㅇㅇ고등학교</td>
+                    <td> - </td>
+                    <td>2001.3 ~ 2004.2</td>
+                    <td>졸업</td>
+                </tr>
+            </tbody>
+        </table>
+    
+</body>
+</html>

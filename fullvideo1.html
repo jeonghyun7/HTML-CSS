@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>동영상 배경</title>
+    <style>
+        #container {
+            position:relative;
+            text-align: right;
+            margin-top: 0;
+            margin-right: 5%;
+        }
+        h2 {
+            color: yellow;
+            font-size: 2em;
+        }
+        h1 {
+            font-size: 1em;
+        }
+        a:link {
+            text-decoration:none;
+            color:green;
+        }
+        a:visited {
+            text-decoration:none;
+            color:red;
+        }
+        a:hover {
+            cursor: pointer;
+        }
+        #bg {
+            position: fixed;
+            left:0;
+            top:0;
+            width: auto;
+            height: auto;
+            z-index: -100;
+            min-width: 100%;
+            min-height: 100%;
+            background: url(images/1.jpg) left top no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <video src="media/Beach.mp4" autoplay loop muted poster="images/1.jpg" id="bg"></video>
+    <div id="container">
+        <h2>네이버 말고 다음</h2>
+        <h1><a href="https://www.daum.net/" target="_blank">다음홈페이지</a></h1>
+    </div>
+</body>
+</html>
